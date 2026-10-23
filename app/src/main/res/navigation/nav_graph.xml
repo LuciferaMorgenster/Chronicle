@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_journal">
+
+    <fragment
+        android:id="@+id/navigation_journal"
+        android:name="eu.lucifera.chronicle.ui.JournalFragment"
+        android:label="Journal"
+        tools:layout="@layout/fragment_journal" />
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="eu.lucifera.chronicle.ui.InfoFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="eu.lucifera.chronicle.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_note_detail"
+        android:name="eu.lucifera.chronicle.ui.NoteDetailFragment"
+        android:label="Note Detail"
+        tools:layout="@layout/fragment_note_detail">
+        <argument
+            android:name="noteId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+</navigation>

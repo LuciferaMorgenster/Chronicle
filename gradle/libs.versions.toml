@@ -1,0 +1,48 @@
+[versions]
+agp = "9.2.1"
+kotlin = "2.4.0"
+ksp = "2.3.9"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activityKtx = "1.8.0"
+constraintlayout = "2.1.4"
+navigation = "2.8.5"
+splashscreen = "1.0.1"
+playServicesAuth = "20.7.0"
+googleApiClient = "2.2.0"
+googleDrive = "v3-rev20230822-2.0.0"
+room = "2.8.4"
+gson = "2.10.1"
+biometric = "1.1.0"
+
+[libraries]
+androidx-biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+google-play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
+google-api-client-android = { group = "com.google.api-client", name = "google-api-client-android", version.ref = "googleApiClient" }
+google-api-services-drive = { group = "com.google.apis", name = "google-api-services-drive", version.ref = "googleDrive" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+

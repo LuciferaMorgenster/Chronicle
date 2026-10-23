@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Chronicle" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.Chronicle" parent="Base.Theme.Chronicle" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_chronicle_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Chronicle</item>
+    </style>
+</resources>

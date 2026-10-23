@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#2D5A27"
+        android:pathData="M256,0C114.6,0 0,114.6 0,256s114.6,256 256,256s256,-114.6 256,-256S397.4,0 256,0z" />
+
+    <!-- Stylized Book/Journal -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M160,120h192v272c0,22.1 -17.9,40 -40,40H160V120z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M160,120h20v312h-20V120z" />
+
+    <!-- Chronicle "C" / Path on page -->
+    <path
+        android:fillColor="#2D5A27"
+        android:pathData="M200,180h100v20h-100zM200,230h100v20h-100zM200,280h60v20h-60z" />
+
+    <!-- Quill / Pen -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M380,100c-20,-20 -50,10 -70,30l-40,40l30,30l40,-40c20,-20 50,-50 40,-60z" />
+    <path
+        android:fillColor="#1E3F1A"
+        android:pathData="M270,170l-30,30l10,10l30,-30z" />
+</vector>
